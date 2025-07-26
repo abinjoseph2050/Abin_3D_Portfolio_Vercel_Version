@@ -57,7 +57,7 @@ const Hero = () => {
                         </p>
 
                         <Button className={"md:w-80 md:h-16 w-60 h-12"} id="button" text={"See My Works"}/>
-                        <Button className={"md:w-80 md:h-16 w-60 h-12"} id="button" text={"Download Resume"}/>
+                        <Button className={"md:w-80 md:h-16 w-60 h-12"} id="resume" href="/resume/Abin_Joseph_Resume.pdf" text={"Download Resume"}/>
                     </div>
                 </header>
 
