@@ -60,6 +60,7 @@ const Hero = () => {
                         {/* <a  id="resume" href="/resume/Abin_Joseph_Resume.pdf" text={"Download Resume"}/> */}
 <a
   style={{ color: "white", fontSize: "20px" }}
+  download
   href="/resume/Abin_Joseph_Resume.pdf"
 >
   Download Resume
