@@ -103,23 +103,23 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "Mongo DB",
+    name: "Mongo DB           ",
     imgPath: "/images/logos/mongodb.png",
   },
   {
-    name: "Express JS",
+    name: "Express JS         ",
     imgPath: "/images/logos/express.png",
   },
   {
-    name: "Angular JS",
+    name: "Angular JS          ",
     imgPath: "/images/logos/angular.png",
   },
   {
-    name: "React JS",
+    name: "React JS            ",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Node JS",
+    name: "Node JS              ",
     imgPath: "/images/logos/node.png",
   },
 ];
