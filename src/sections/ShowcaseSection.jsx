@@ -1,7 +1,7 @@
-import {useRef} from "react";
-import {gsap} from 'gsap'
-import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {useGSAP} from "@gsap/react";
+import { useRef } from "react";
+import { gsap } from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,8 +35,8 @@ const ShowcaseSection = () => {
 
         gsap.fromTo(
             sectionRef.current,
-            {opacity: 0},
-            {opacity: 1, duration: 1.5},
+            { opacity: 0 },
+            { opacity: 1, duration: 1.5 },
         )
     }, [])
 
@@ -45,32 +45,51 @@ const ShowcaseSection = () => {
             <div className={"w-full"}>
                 <div className={"showcaselayout"}>
                     {/*Left*/}
-                    <div className={"first-project-wrapper"} ref={project1Ref}>
-                        <div className={"image-wrapper"}>
-                            <img src="/images/project1.png" alt="Ryde"/>
+                    <a
+                        href="https://abinjoseph2050.github.io/movie-finder/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={"first-project-wrapper"}
+                    >
+                        <div ref={project1Ref}>
+                            <div className={"image-wrapper"}>
+                                <img src="/images/project1.png" alt="Ryde" />
+                            </div>
+                            <div className="text-content">
+                                <h2>Movie Finder – Instantly Discover Movies Worldwide</h2>
+                                <p className="text-white-50 md:text-xl">
+                                    Movie Finder is a quick and easy app to search and explore details about any movie from around the world.
+                                </p>
+                            </div>
                         </div>
-                        <div className="text-content">
-                            <h2>On demand rides and some good initial description about the project</h2>
-                            <p className="text-white-50 md:text-xl">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ut, vitae. Ad
-                                corporis ea iste obcaecati odio quaerat quos ullam!
-                            </p>
-                        </div>
-                    </div>
+                    </a>
 
                     {/*Right*/}
                     <div className="project-list-wrapper overflow-hidden">
+
                         <div className="project" ref={project2Ref}>
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Library"/>
-                            </div>
-                            <h2>Title for Second project</h2>
+                            <a
+                                href="https://abin-scrum-sprint-planner-rldl4xf03.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="image-wrapper bg-[#ffefdb]">
+                                    <img src="/images/project2.png" alt="Library" />
+                                </div>
+                            </a>
+                            <h2>Scrum Sprint Planner</h2>
                         </div>
 
                         <div className="project" ref={project3Ref}>
-                            <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="YC"/>
-                            </div>
+                            <a
+                                href="https://github.com/abinjoseph2050/Components-Library"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="image-wrapper bg-[#ffe7eb]">
+                                    <img src="/images/project3.png" alt="YC" />
+                                </div>
+                            </a>
                             <h2>Title for Third project</h2>
                         </div>
                     </div>

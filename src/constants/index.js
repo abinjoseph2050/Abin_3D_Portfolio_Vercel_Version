@@ -309,42 +309,28 @@ const testimonials = [
     imgPath: "/images/marymol.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Amil Joseph",
+    mentions: "@amil_joseph",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Professionally and personally, Abin is a well-rounded individual with a great attitude, strong sense of responsibility, and a genuine passion for growth. Their dedication, willingness to take initiative, and ability to work well with others make them truly commendable.",
+    imgPath: "/images/uv.png",
   },
 ];
 
 const socialImgs = [
   {
     name: "git",
-    url: "https://www.github.com/",
+    url: "https://github.com/abinjoseph2050",
     imgPath: "/images/git.png",
   },
   {
     name: "x",
-    url: "https://www.x.com/",
+    url: "https://x.com/_abinjoseph",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/abinjoeseph/",
     imgPath: "/images/linkedin.png",
   },
 ];
