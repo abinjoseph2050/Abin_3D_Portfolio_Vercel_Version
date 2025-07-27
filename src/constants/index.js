@@ -36,6 +36,33 @@ const counterItems = [
   { value: 99, suffix: "%", label: "Project Satisfaction Rate" },
 ];
 
+const logoGamesList = [
+  {
+    imgPath: "/images/logos/game-logo-1.png",
+    name: "1",
+  },
+  {
+    imgPath: "/images/logos/game-logo-2.png",
+    name: "2",
+  },
+  {
+    imgPath: "/images/logos/game-logo-3.png",
+    name: "3",
+  },
+  {
+    imgPath: "/images/logos/game-logo-4.png",
+    name: "4",
+  },
+  {
+    imgPath: "/images/logos/game-logo-5.png",
+    name: "5",
+  },
+  {
+    imgPath: "/images/logos/game-logo-6.png",
+    name: "6",
+  },
+];
+
 const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-1.png",
@@ -80,6 +107,22 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-11.png",
     name: "11",
+  },
+  {
+    imgPath: "/images/logos/company-logo-12.png",
+    name: "12",
+  },
+  {
+    imgPath: "/images/logos/company-logo-13.png",
+    name: "13",
+  },
+  {
+    imgPath: "/images/logos/company-logo-14.png",
+    name: "14",
+  },
+  {
+    imgPath: "/images/logos/company-logo-15.png",
+    name: "15",
   },
 ];
 
@@ -309,6 +352,7 @@ const socialImgs = [
 export {
   words,
   abilities,
+  logoGamesList,
   logoIconsList,
   counterItems,
   expCards,

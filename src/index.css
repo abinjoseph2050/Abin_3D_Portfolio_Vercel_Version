@@ -408,11 +408,21 @@ section {
 .marquee-box {
     display: flex;
     align-items: center;
-    width: 200%;
-    height: 100%;
+    width: 370%;
+    height: 80%;
     position: absolute;
     overflow: hidden;
-    animation: marquee 60s linear infinite;
+    animation: marquee 50s linear infinite;
+}
+.marquee-r-box {
+    display: flex;
+    align-items: center;
+    width: 200%;
+    height: 80%;
+    position: absolute;
+    overflow: hidden;
+    will-change: transform;
+    animation: marquee-r 45s linear infinite;
 }
 .marquee-item {
     float: left;
@@ -422,8 +432,22 @@ section {
         left: 0;
     }
     100% {
-        left: -100%;
+        left: -250%;
     }
+}
+@keyframes marquee-r {
+    0% {
+        right: 0;
+    }
+    100% {
+        right: -110%;
+    }
+}
+
+@media (max-width: 768px) {
+  .marquee-box, .marquee-r-box {
+    animation-duration: 12s;
+  }
 }
 /* marquee end */
 
