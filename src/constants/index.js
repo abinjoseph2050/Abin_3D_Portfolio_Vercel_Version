@@ -294,20 +294,20 @@ const testimonials = [
       "Abin Joseph was one of my mentors during my time at my first company, where I worked on the Angular team. From day one, his guidance has been truly invaluable. He constantly encouraged me to approach every task with excellence, pushing me to bring out the best in myself. His passion for learning new things, his unwavering support, and his infectious enthusiasm make him an inspiring mentor and a remarkable colleague.",
     imgPath: "/images/deepak.png",
   },
-  {
-    name: "Isha Joy",
-    mentions: "@isha_joy",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/isha.png",
-  },
-  {
-    name: "Marymol Augusthy",
-    mentions: "@marymol_augusthy",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/marymol.png",
-  },
+  // {
+  //   name: "Isha Joy",
+  //   mentions: "@isha_joy",
+  //   review:
+  //     "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+  //   imgPath: "/images/isha.png",
+  // },
+  // {
+  //   name: "Marymol Augusthy",
+  //   mentions: "@marymol_augusthy",
+  //   review:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   imgPath: "/images/marymol.png",
+  // },
   {
     name: "Amil Joseph",
     mentions: "@amil_joseph",

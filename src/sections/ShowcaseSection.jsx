@@ -69,7 +69,7 @@ const ShowcaseSection = () => {
 
                         <div className="project" ref={project2Ref}>
                             <a
-                                href="https://abin-scrum-sprint-planner-rldl4xf03.vercel.app/"
+                                href="https://abin-scrum-sprint-planner.vercel.app/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -90,7 +90,7 @@ const ShowcaseSection = () => {
                                     <img src="/images/project3.png" alt="YC" />
                                 </div>
                             </a>
-                            <h2>Title for Third project</h2>
+                            <h2>Reusable Components Library</h2>
                         </div>
                     </div>
                 </div>
