@@ -60,6 +60,10 @@ const Hero = () => {
                             Download Resume
                         </a>
 
+                        <a style={{ color: "white", fontSize: "20px" }} download href="/resume/main.zip" >
+                            DownloadResume
+                        </a>
+
                     </div>
                 </header>
 
