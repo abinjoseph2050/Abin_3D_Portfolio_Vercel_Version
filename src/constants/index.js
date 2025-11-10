@@ -294,13 +294,13 @@ const testimonials = [
       "Abin Joseph was one of my mentors during my time at my first company, where I worked on the Angular team. From day one, his guidance has been truly invaluable. He constantly encouraged me to approach every task with excellence, pushing me to bring out the best in myself. His passion for learning new things, his unwavering support, and his infectious enthusiasm make him an inspiring mentor and a remarkable colleague.",
     imgPath: "/images/deepak.png",
   },
-  // {
-  //   name: "Isha Joy",
-  //   mentions: "@isha_joy",
-  //   review:
-  //     "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-  //   imgPath: "/images/isha.png",
-  // },
+  {
+    name: "Isha Joy",
+    mentions: "@isha_joy",
+    review:
+      "Abin Joseph was one of the most approachable and helpful seniors I’ve had the privilege to work with. As a fresher, I was often unsure, but he never hesitated to help. He patiently shared his knowledge, explained concepts clearly, and always encouraged me to grow. His willingness to guide without any ego, and his consistent support, truly reflect his character as both a great mentor and an exceptional teammate.",
+    imgPath: "/images/isha.png",
+  },
   // {
   //   name: "Marymol Augusthy",
   //   mentions: "@marymol_augusthy",
