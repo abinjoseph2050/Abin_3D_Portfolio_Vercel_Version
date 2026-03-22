@@ -2,7 +2,7 @@ import { socialImgs } from "../constants";
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer relative z-50">
             <div className="footer-container">
                 <div className="flex flex-col justify-center">
                     <p>AJ</p>

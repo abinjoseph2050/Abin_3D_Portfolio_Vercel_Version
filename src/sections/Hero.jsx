@@ -22,7 +22,7 @@ const Hero = () => {
             })
     })
     return (
-        <section id="hero" className="relative overflow-hidden">
+        <section id="hero" className="relative overflow-hidden z-50">
             <div className="absolute top-0 left-0 z-10">
                 <img src="/images/bg.png" alt="background" />
             </div>
@@ -55,10 +55,10 @@ const Hero = () => {
                         <p className={"text-white-50 md:text-xl relative z-10"}>
                             Hey there! I’m Abin, a developer based in India who’s passionate about building with code and exploring the world of science.                        </p>
 
-                        <Button className={"md:w-80 md:h-16 w-60 h-12"} id="button" text={"See My Works"} />
-                        <a style={{ color: "white", fontSize: "20px" }} download href="/resume/Abin_Joseph_Resume.pdf" >
-                            Download Resume
-                        </a>
+                        <div className="flex flex-wrap gap-7">
+                            <Button className={"md:w-80 md:h-16 w-60 h-12"} id="button" text={"See My Works"} />
+                            <Button className={"md:w-80 md:h-16 w-60 h-12"} id="button" text={"Download Resume"} download href="/resume/Abin_Joseph_Resume.pdf" />
+                        </div>
                     </div>
                 </header>
 

@@ -1,9 +1,9 @@
 import TitleHeader from "../components/TitleHeader.jsx";
 // import {techStackIcons, techStackImgs} from "../constants/index.js";
-import {techStackImgs} from "../constants/index.js";
+import { techStackImgs } from "../constants/index.js";
 // import TechIcon from "../components/Models/TechLogos/TechIcon.jsx";
-import {useGSAP} from "@gsap/react";
-import {gsap} from "gsap";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
 
 const TechStack = () => {
     useGSAP(() => {
@@ -26,9 +26,9 @@ const TechStack = () => {
     })
 
     return (
-        <div id='skills' className='flex-center section-padding'>
+        <div id='skills' className='flex-center section-padding relative z-50'>
             <div className="w-full h-full md:px-10 px-5">
-                <TitleHeader title="My Preferred Tech Stack" sub="🤝 The Skills I Bring to the Table"/>
+                <TitleHeader title="My Preferred Tech Stack" sub="🤝 The Skills I Bring to the Table" />
 
                 <div className="tech-grid">
                     {/* 3D part */}
@@ -49,16 +49,16 @@ const TechStack = () => {
                     {/*    </div>*/}
                     {/*))}*/}
 
-                     {/*Image part*/}
+                    {/*Image part*/}
                     {techStackImgs.map((techStackIcon, index) => (
                         <div
                             key={index}
                             className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
                         >
-                            <div className="tech-card-animated-bg"/>
+                            <div className="tech-card-animated-bg" />
                             <div className="tech-card-content">
                                 <div className="tech-icon-wrapper">
-                                    <img src={techStackIcon.imgPath} alt=""/>
+                                    <img src={techStackIcon.imgPath} alt="" />
                                 </div>
                                 <div className="padding-x w-full">
                                     <p>{techStackIcon.name}</p>

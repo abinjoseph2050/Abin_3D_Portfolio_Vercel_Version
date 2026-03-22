@@ -13,7 +13,7 @@ const LogoSection = () => {
 
     return (
 
-        <div className="md:my-20 my-10 relative">
+        <div className="md:my-20 my-10 relative z-50">
             <TitleHeader title={""} sub={"⚙️ Tech I'm familiar with"} />
             <div className="gradient-edge" />
             <div className="gradient-edge" />
